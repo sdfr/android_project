@@ -29,7 +29,8 @@
             style="?android:attr/progressBarStyle"
             android:layout_width="29dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.18" />
+            android:layout_weight="0.18"
+            android:visibility="invisible" />
 
     </LinearLayout>
 </LinearLayout>
