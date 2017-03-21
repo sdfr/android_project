@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Youtube browser</string>
+    <string name="videoSearchButtonText">Search</string>
+    <string name="videoEditTextHint">Title</string>
+    <string name="title_activity_video">Video</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_objet_list">Objets</string>
+    <string name="title_objet_detail">Objet Detail</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
