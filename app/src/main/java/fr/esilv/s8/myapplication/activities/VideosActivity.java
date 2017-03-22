@@ -68,11 +68,15 @@ public class VideosActivity extends AppCompatActivity implements OnVideoSelected
         String channel = video .getSnippet().getChannelTitle();
         String description = video .getSnippet().getDescription();
         String publicationDate = video .getSnippet().getPublishedAt();
+        String videoId = video.getId().getVideoId();
+
         Intent nextActivity = new Intent(VideosActivity.this, VideoActivity.class);
         nextActivity.putExtra("title", title);
         nextActivity.putExtra("channel", channel);
         nextActivity.putExtra("description", description);
         nextActivity.putExtra("publicationDate", publicationDate);
+        nextActivity.putExtra("videoId", videoId);
+
         startActivity(nextActivity);
     }
 }

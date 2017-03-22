@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String query = searchEditText.getText().toString();
+                String query = searchEditText.getText().toString().replace(" ", "+");
                 findViewById(R.id.progressBar).setVisibility(View.VISIBLE);
                 Intent nextActivity = new Intent(MainActivity.this, VideosActivity.class);
                 nextActivity.putExtra("query", query);

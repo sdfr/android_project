@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:layout_gravity="left"
+    android:background="@color/red"
+    android:orientation="vertical"
+    tools:textColor="@color/white">
+
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
         <EditText
             android:id="@+id/videoEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
+            android:layout_weight="3.22"
+            android:background="@color/white"
             android:inputType="text"
-            android:text="Youtube video search" />
+            tools:textColor="@color/white" />
 
         <Button
             android:id="@+id/searchButton"
             android:layout_width="29dp"
             android:layout_height="35dp"
-            android:layout_weight="1.04"
+            android:layout_weight="0.35"
             android:text="GO" />
 
         <ProgressBar

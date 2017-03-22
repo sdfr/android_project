@@ -9,4 +9,5 @@
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
-    tools:context="fr.esilv.s8.myapplication.activities.VideosActivity"/>
+    tools:context="fr.esilv.s8.myapplication.activities.VideosActivity"
+    android:background="@color/red"/>
